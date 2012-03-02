@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5204CA5214E70D9500E68357 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5204CA5114E70D9500E68357 /* UIKit.framework */; };
+		5204CA5414E70D9500E68357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5204CA5314E70D9500E68357 /* Foundation.framework */; };
+		5204CA5614E70D9500E68357 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5204CA5514E70D9500E68357 /* CoreGraphics.framework */; };
+		5204CA5C14E70D9500E68357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5204CA5A14E70D9500E68357 /* InfoPlist.strings */; };
+		5204CA5E14E70D9500E68357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5204CA5D14E70D9500E68357 /* main.m */; };
+		5204CA7414E70F2000E68357 /* SlidzerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5204CA6F14E70F2000E68357 /* SlidzerAppDelegate.m */; };
+		5204CA7B14E70F5D00E68357 /* PuzzleBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5204CA7A14E70F5D00E68357 /* PuzzleBoardViewController.m */; };
+		5204CA7E14E710A600E68357 /* UIE_Slider_Puzzle--globe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5204CA7C14E710A600E68357 /* UIE_Slider_Puzzle--globe.jpg */; };
+		5204CA7F14E710A600E68357 /* UIE_Slider_Puzzle--globe@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5204CA7D14E710A600E68357 /* UIE_Slider_Puzzle--globe@2x.jpg */; };
+		5204CA8214E7161C00E68357 /* PuzzleBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5204CA8114E7161C00E68357 /* PuzzleBoardView.m */; };
+		5204CA8414E71D5B00E68357 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5204CA8314E71D5A00E68357 /* QuartzCore.framework */; };
+		5204CA8B14E72CB700E68357 /* PuzzleEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5204CA8A14E72CB700E68357 /* PuzzleEngine.m */; };
+		52D154FC14EACC9F003FCF5F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D154FA14EACC9F003FCF5F /* Icon.png */; };
+		52D154FD14EACC9F003FCF5F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D154FB14EACC9F003FCF5F /* Icon@2x.png */; };
+		52D154FF14EACCD6003FCF5F /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D154FE14EACCD6003FCF5F /* icon-72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5204CA4D14E70D9500E68357 /* Slidzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slidzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5204CA5114E70D9500E68357 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5204CA5314E70D9500E68357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5204CA5514E70D9500E68357 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5204CA5914E70D9500E68357 /* Slidzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slidzer-Info.plist"; sourceTree = "<group>"; };
+		5204CA5B14E70D9500E68357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5204CA5D14E70D9500E68357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5204CA5F14E70D9500E68357 /* Slidzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slidzer-Prefix.pch"; sourceTree = "<group>"; };
+		5204CA6E14E70F2000E68357 /* SlidzerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidzerAppDelegate.h; path = Classes/SlidzerAppDelegate.h; sourceTree = "<group>"; };
+		5204CA6F14E70F2000E68357 /* SlidzerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidzerAppDelegate.m; path = Classes/SlidzerAppDelegate.m; sourceTree = "<group>"; };
+		5204CA7914E70F5D00E68357 /* PuzzleBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleBoardViewController.h; path = Classes/ViewControllers/PuzzleBoardViewController.h; sourceTree = "<group>"; };
+		5204CA7A14E70F5D00E68357 /* PuzzleBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleBoardViewController.m; path = Classes/ViewControllers/PuzzleBoardViewController.m; sourceTree = "<group>"; };
+		5204CA7C14E710A600E68357 /* UIE_Slider_Puzzle--globe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "UIE_Slider_Puzzle--globe.jpg"; path = "Assets/UIE_Slider_Puzzle--globe.jpg"; sourceTree = "<group>"; };
+		5204CA7D14E710A600E68357 /* UIE_Slider_Puzzle--globe@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "UIE_Slider_Puzzle--globe@2x.jpg"; path = "Assets/UIE_Slider_Puzzle--globe@2x.jpg"; sourceTree = "<group>"; };
+		5204CA8014E7161C00E68357 /* PuzzleBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleBoardView.h; path = Classes/Views/PuzzleBoardView.h; sourceTree = "<group>"; };
+		5204CA8114E7161C00E68357 /* PuzzleBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleBoardView.m; path = Classes/Views/PuzzleBoardView.m; sourceTree = "<group>"; };
+		5204CA8314E71D5A00E68357 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5204CA8914E72CB700E68357 /* PuzzleEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleEngine.h; sourceTree = "<group>"; };
+		5204CA8A14E72CB700E68357 /* PuzzleEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleEngine.m; sourceTree = "<group>"; };
+		52D154FA14EACC9F003FCF5F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Assets/Icon.png; sourceTree = "<group>"; };
+		52D154FB14EACC9F003FCF5F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Assets/Icon@2x.png"; sourceTree = "<group>"; };
+		52D154FE14EACCD6003FCF5F /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Assets/icon-72.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5204CA4A14E70D9500E68357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5204CA8414E71D5B00E68357 /* QuartzCore.framework in Frameworks */,
+				5204CA5214E70D9500E68357 /* UIKit.framework in Frameworks */,
+				5204CA5414E70D9500E68357 /* Foundation.framework in Frameworks */,
+				5204CA5614E70D9500E68357 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5204CA4214E70D9500E68357 = {
+			isa = PBXGroup;
+			children = (
+				5204CA5714E70D9500E68357 /* Slidzer */,
+				5204CA5014E70D9500E68357 /* Frameworks */,
+				5204CA4E14E70D9500E68357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5204CA4E14E70D9500E68357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5204CA4D14E70D9500E68357 /* Slidzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5204CA5014E70D9500E68357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5204CA8314E71D5A00E68357 /* QuartzCore.framework */,
+				5204CA5114E70D9500E68357 /* UIKit.framework */,
+				5204CA5314E70D9500E68357 /* Foundation.framework */,
+				5204CA5514E70D9500E68357 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5204CA5714E70D9500E68357 /* Slidzer */ = {
+			isa = PBXGroup;
+			children = (
+				5204CA6B14E70F1500E68357 /* Assets */,
+				5204CA6A14E70F0F00E68357 /* Classes */,
+				5204CA5814E70D9500E68357 /* Supporting Files */,
+			);
+			path = Slidzer;
+			sourceTree = "<group>";
+		};
+		5204CA5814E70D9500E68357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5204CA5914E70D9500E68357 /* Slidzer-Info.plist */,
+				5204CA5A14E70D9500E68357 /* InfoPlist.strings */,
+				5204CA5D14E70D9500E68357 /* main.m */,
+				5204CA5F14E70D9500E68357 /* Slidzer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5204CA6A14E70F0F00E68357 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5204CA6E14E70F2000E68357 /* SlidzerAppDelegate.h */,
+				5204CA6F14E70F2000E68357 /* SlidzerAppDelegate.m */,
+				5204CA7814E70F3900E68357 /* ViewControllers */,
+				5204CA7714E70F2B00E68357 /* Views */,
+				5204CA8514E71EF700E68357 /* Engine */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		5204CA6B14E70F1500E68357 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				52D154FE14EACCD6003FCF5F /* icon-72.png */,
+				52D154FA14EACC9F003FCF5F /* Icon.png */,
+				52D154FB14EACC9F003FCF5F /* Icon@2x.png */,
+				5204CA7C14E710A600E68357 /* UIE_Slider_Puzzle--globe.jpg */,
+				5204CA7D14E710A600E68357 /* UIE_Slider_Puzzle--globe@2x.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		5204CA7714E70F2B00E68357 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5204CA8014E7161C00E68357 /* PuzzleBoardView.h */,
+				5204CA8114E7161C00E68357 /* PuzzleBoardView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5204CA7814E70F3900E68357 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5204CA7914E70F5D00E68357 /* PuzzleBoardViewController.h */,
+				5204CA7A14E70F5D00E68357 /* PuzzleBoardViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5204CA8514E71EF700E68357 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				5204CA8914E72CB700E68357 /* PuzzleEngine.h */,
+				5204CA8A14E72CB700E68357 /* PuzzleEngine.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5204CA4C14E70D9500E68357 /* Slidzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5204CA6514E70D9500E68357 /* Build configuration list for PBXNativeTarget "Slidzer" */;
+			buildPhases = (
+				5204CA4914E70D9500E68357 /* Sources */,
+				5204CA4A14E70D9500E68357 /* Frameworks */,
+				5204CA4B14E70D9500E68357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slidzer;
+			productName = Slidzer;
+			productReference = 5204CA4D14E70D9500E68357 /* Slidzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5204CA4414E70D9500E68357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NakedProductions;
+			};
+			buildConfigurationList = 5204CA4714E70D9500E68357 /* Build configuration list for PBXProject "Slidzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5204CA4214E70D9500E68357;
+			productRefGroup = 5204CA4E14E70D9500E68357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5204CA4C14E70D9500E68357 /* Slidzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5204CA4B14E70D9500E68357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5204CA5C14E70D9500E68357 /* InfoPlist.strings in Resources */,
+				5204CA7E14E710A600E68357 /* UIE_Slider_Puzzle--globe.jpg in Resources */,
+				5204CA7F14E710A600E68357 /* UIE_Slider_Puzzle--globe@2x.jpg in Resources */,
+				52D154FC14EACC9F003FCF5F /* Icon.png in Resources */,
+				52D154FD14EACC9F003FCF5F /* Icon@2x.png in Resources */,
+				52D154FF14EACCD6003FCF5F /* icon-72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5204CA4914E70D9500E68357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5204CA5E14E70D9500E68357 /* main.m in Sources */,
+				5204CA7414E70F2000E68357 /* SlidzerAppDelegate.m in Sources */,
+				5204CA7B14E70F5D00E68357 /* PuzzleBoardViewController.m in Sources */,
+				5204CA8214E7161C00E68357 /* PuzzleBoardView.m in Sources */,
+				5204CA8B14E72CB700E68357 /* PuzzleEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5204CA5A14E70D9500E68357 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5204CA5B14E70D9500E68357 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5204CA6314E70D9500E68357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5204CA6414E70D9500E68357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5204CA6614E70D9500E68357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slidzer/Slidzer-Prefix.pch";
+				INFOPLIST_FILE = "Slidzer/Slidzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5204CA6714E70D9500E68357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slidzer/Slidzer-Prefix.pch";
+				INFOPLIST_FILE = "Slidzer/Slidzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5204CA4714E70D9500E68357 /* Build configuration list for PBXProject "Slidzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5204CA6314E70D9500E68357 /* Debug */,
+				5204CA6414E70D9500E68357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5204CA6514E70D9500E68357 /* Build configuration list for PBXNativeTarget "Slidzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5204CA6614E70D9500E68357 /* Debug */,
+				5204CA6714E70D9500E68357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5204CA4414E70D9500E68357 /* Project object */;
+}

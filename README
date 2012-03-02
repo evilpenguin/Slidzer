@@ -1,0 +1,1 @@
+Slidzer is a 4x4 slider puzzle game. It has a basic PuzzleEngine that is a multidimensional array containing tile columns and tile numbers.
